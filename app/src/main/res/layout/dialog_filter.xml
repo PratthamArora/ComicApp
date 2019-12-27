@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="500dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="16dp"
+        android:layout_height="match_parent">
+
+        <AutoCompleteTextView
+            android:id="@+id/edt_category"
+            android:hint="Category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </AutoCompleteTextView>
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/chipGroup"
+            android:layout_marginTop="16dp"
+            android:layout_below="@+id/edt_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </com.google.android.material.chip.ChipGroup>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
